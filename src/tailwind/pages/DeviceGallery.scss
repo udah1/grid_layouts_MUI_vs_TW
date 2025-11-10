@@ -1,0 +1,26 @@
+// Device Gallery Page Styles
+
+.device-gallery-banner {
+  @apply border-2 border-blue-500 p-6 bg-blue-50 rounded h-[516px] sm:h-[720px] md:h-[384px] flex flex-col items-center justify-center;
+}
+
+.device-gallery-banner-title {
+  @apply text-3xl font-bold mb-4;
+}
+
+.device-gallery-banner-text {
+  @apply text-base;
+}
+
+.device-gallery-item {
+  @apply border-2 border-green-600 p-4 bg-green-50 rounded h-[390px] sm:h-[486px] md:h-[462px] flex flex-col items-center justify-center;
+}
+
+.device-gallery-item-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.device-gallery-item-text {
+  @apply text-sm text-center;
+}
+

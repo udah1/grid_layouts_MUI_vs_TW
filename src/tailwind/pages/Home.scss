@@ -1,0 +1,22 @@
+// Home Page Styles
+
+.home-container {
+  @apply w-full min-h-[60vh] flex items-center justify-center flex-col py-16;
+}
+
+.home-title {
+  @apply text-4xl font-bold mb-8;
+}
+
+.home-subtitle {
+  @apply text-xl text-gray-600 mb-12;
+}
+
+.home-buttons-container {
+  @apply flex flex-col sm:flex-row gap-6 w-full max-w-[600px];
+}
+
+.home-button {
+  @apply flex-1 py-4 px-8 text-lg bg-blue-600 text-white rounded hover:bg-blue-700 transition;
+}
+

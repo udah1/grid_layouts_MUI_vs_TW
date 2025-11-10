@@ -1,0 +1,78 @@
+// Track Order Page Styles
+
+.track-order-first-row {
+  @apply border-2 border-blue-500 p-6 bg-blue-50 rounded;
+}
+
+.track-order-first-row-title {
+  @apply text-2xl font-bold mb-2;
+}
+
+.track-order-first-row-text {
+  @apply text-base;
+}
+
+.track-order-left-col-item {
+  @apply border-2 border-green-600 p-6 bg-green-50 rounded flex flex-col justify-center;
+}
+
+.track-order-left-col-item-1 {
+  @apply h-[220px];
+}
+
+.track-order-left-col-item-2 {
+  @apply h-[190px];
+}
+
+.track-order-left-col-item-3 {
+  @apply h-[200px];
+}
+
+.track-order-left-col-item-mobile {
+  @apply h-[180px] sm:h-[200px];
+}
+
+.track-order-left-col-item-mobile-2 {
+  @apply h-[150px] sm:h-[170px];
+}
+
+.track-order-left-col-item-mobile-3 {
+  @apply h-[160px] sm:h-[180px];
+}
+
+.track-order-left-col-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.track-order-left-col-text {
+  @apply text-sm;
+}
+
+.track-order-right-col-item {
+  @apply border-2 border-red-600 p-6 bg-red-50 rounded h-[250px] sm:h-[280px] md:h-[300px] flex flex-col justify-center;
+}
+
+.track-order-right-col-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.track-order-right-col-text {
+  @apply text-sm;
+}
+
+.track-order-gray-section {
+  @apply bg-gray-200 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mt-6 sm:mt-8 md:mt-8 py-6 sm:py-8 md:py-8;
+}
+
+.track-order-gray-content {
+  @apply border-2 border-gray-600 p-6 bg-white rounded;
+}
+
+.track-order-gray-title {
+  @apply text-2xl font-bold mb-2;
+}
+
+.track-order-gray-text {
+  @apply text-base;
+}
+
