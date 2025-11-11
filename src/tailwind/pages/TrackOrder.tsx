@@ -45,7 +45,7 @@ const TrackOrder = () => {
             </div>
 
             {/* Tablet/Mobile: Show only Div 1 */}
-            <div className="block sm:block md:hidden track-order-left-col-item track-order-left-col-item-mobile">
+            <div className="block md:hidden track-order-left-col-item track-order-left-col-item-mobile">
               <h3 className="track-order-left-col-title">Left Column - Div 1</h3>
               <p className="track-order-left-col-text">
                 This is the first div in the left column. 
@@ -56,7 +56,7 @@ const TrackOrder = () => {
           </GridItem>
 
           {/* Right Column - Div 1: appears third on tablet, right column on desktop */}
-          <GridItem xs={6} sm={12} md={7} className="order-2 sm:order-2 md:order-2">
+          <GridItem xs={6} sm={12} md={7} className="order-2 sm:order-2">
             <div className="track-order-right-col-item">
               <h3 className="track-order-right-col-title">Right Column - Div 1</h3>
               <p className="track-order-right-col-text">
